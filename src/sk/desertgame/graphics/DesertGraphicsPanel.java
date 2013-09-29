@@ -13,7 +13,6 @@ public class DesertGraphicsPanel extends JPanel {
 	int actorY = 100;
 	
 	public DesertGraphicsPanel() {
-		System.out.println("tes");
 		init();
 	}
 	
@@ -48,7 +47,6 @@ public class DesertGraphicsPanel extends JPanel {
 		});
 		setFocusable(true);
 		requestFocus();
-		System.out.println(this.hasFocus());
 	}
 	
 	@Override
